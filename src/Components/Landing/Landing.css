@@ -1,0 +1,75 @@
+.landing {
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  background-color: #111;
+}
+
+.logo {
+  color: #22c55e;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  color: #bbb;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #111;
+  padding: 30px;
+  border-radius: 15px;
+  width: 280px;
+}
+
+.card h3 {
+  color: #22c55e;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #22c55e;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #1ea34d;
+}
+
+.btn-primary.large {
+  padding: 15px 30px;
+  font-size: 18px;
+}
